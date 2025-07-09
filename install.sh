@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Dotfiles Installation Script for macOS
-# Usage: curl -fsSL https://raw.githubusercontent.com/yourusername/dotfiles/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/andrewgould27/dotfiles/master/install.sh | bash
 
 set -e
 
@@ -46,7 +46,7 @@ mkdir -p ~/.local/bin
 DOTFILES_DIR="$HOME/.dotfiles"
 if [ ! -d "$DOTFILES_DIR" ]; then
     log_info "Cloning dotfiles repository..."
-    git clone https://github.com/yourusername/dotfiles.git "$DOTFILES_DIR"
+    git clone https://github.com/andrewgould27/dotfiles.git "$DOTFILES_DIR"
 else
     log_info "Dotfiles repository already exists. Pulling latest changes..."
     cd "$DOTFILES_DIR" && git pull
