@@ -13,14 +13,14 @@ A collection of my personal dotfiles for macOS, featuring a beautiful Nord-theme
 ## Quick Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/dotfiles/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/andrewgould27/dotfiles/main/install.sh | bash
 ```
 
 ## Manual Installation
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/dotfiles.git ~/.dotfiles
+git clone https://github.com/andrewgould27/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ```
 
