@@ -13,7 +13,7 @@ A collection of my personal dotfiles for macOS, featuring a beautiful Nord-theme
 ## Quick Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/andrewgould27/dotfiles/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/andrewgould27/dotfiles/master/install.sh | bash
 ```
 
 ## Manual Installation
